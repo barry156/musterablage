@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "commonjs",
+        "allowJs": true,
+        "removeComments": false,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": false
+    },
+    "compileOnSave": true,
+    "include": [
+        "./src/"
+    ],
+    "exclude": [
+        "./src/**/**/JS/"
+    ]
+}
